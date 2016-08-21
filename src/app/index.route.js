@@ -21,6 +21,12 @@
                     templateUrl: 'app/home/home.html',
                     controller: 'homeController',
                     controllerAs: 'home'
+                })
+                .state('menu.allproduct', {
+                    url: 'allproduct',
+                    templateUrl: 'app/allproduct/allproduct.html',
+                    controller: 'allproductController',
+                    controllerAs: 'allproduct'
                 });
 
         $urlRouterProvider.otherwise('home');
